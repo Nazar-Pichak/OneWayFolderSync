@@ -105,7 +105,7 @@ First ensure you have installed [Python](https://www.python.org/downloads/) and 
     >>> "C:\Users\your_name\Desktop\source_dir"  "C:\Users\your_name\Desktop\dest_dir" "C:\Users\your_name\Desktop\logfile.log"  10 
    
     ```
-    ![img_1.png](img_1.png)
+    ![alt text](images/img_1.png)
 
 ## Contribution guide
 
@@ -113,22 +113,22 @@ Contributions and improvements are wellcome as well. Please feel free to report 
 
 1. Make your king Fork 👇👇👇
 
-   ![img_2.png](img_2.png)
+    ![alt text](images/img_2.png)
 
 2. Clone Forked repository 👇👇👇
 
 
-   ![img_3.png](img_3.png)
+    ![alt text](images/img_3.png)
 
 
 3. Add your improvements to the code or documentation ⚒️⚒️⛏️🧑‍💻🧑‍💻🧑‍💻
 
 
-   ![img_5.png](img_5.png)
+    ![alt text](images/img_5.png)
 
 4. Push changes and open your king Pull Request 👇👇👇
 
-   ![img_6.png](img_6.png)
+    ![alt text](images/img_6.png)
 
 ## 
 
