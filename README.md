@@ -63,11 +63,78 @@ If the user has opted to show hidden files, those sizes will be included in the 
 > Based on this we can make decision that we can't see visually a whole memory size of the some folders in the file explorers (Windows, Linux, MacOS) even when we copy them. The original and copy looks the same,
 > but in case copying via programming code operations we can run into a strange difference in memory size of original and a copy of the same folder.** 
 
-## Installation guide
+## Installation and usage guide
 
 First ensure you have installed [Python](https://www.python.org/downloads/) and [pip](https://pip.pypa.io/en/stable/installation/) on your system.
 
-``
+1. Upgrade your pip:
 
-### Contribution guide
-                                            
+    `python -m pip install --upgrade pip`
+   
+2. Clone repo:
+
+    `git clone https://github.com/Nazar-Pichak/One_Way_Folder_Sync.git`
+
+3. Navigate into your git repo:
+
+    `cd >> cloned git repo`
+
+4. Create virtual environment:
+
+    `python -m venv env`
+ 
+5. Activate virtual environment:
+
+    ```
+    .venv\Scripts\activate         <<< Windows
+   
+    $ source .venv/bin/activate      <<< Unix/macOS
+    ```
+6. Install dependencies into virtual environment:
+
+    `python -m pip install -r requirements.txt`
+
+7. Run the code:
+
+    ```
+    cd >> src\
+
+    python main.py
+   
+    Enter needed arguments via command line (for conviniens):
+    >>> "C:\Users\your_name\Desktop\source_dir"  "C:\Users\your_name\Desktop\dest_dir" "C:\Users\your_name\Desktop\logfile.log"  10 
+   
+    ```
+    ![img_1.png](img_1.png)
+
+## Contribution guide
+
+Contributions and improvements are wellcome as well. Please feel free to report any issues and bugs as this project is completely new.    
+
+1. Make your king Fork 👇👇👇
+
+   ![img_2.png](img_2.png)
+
+2. Clone Forked repository 👇👇👇
+
+
+   ![img_3.png](img_3.png)
+
+
+3. Add your improvements to the code or documentation ⚒️⚒️⛏️🧑‍💻🧑‍💻🧑‍💻
+
+
+   ![img_5.png](img_5.png)
+
+4. Push changes and open your king Pull Request 👇👇👇
+
+   ![img_6.png](img_6.png)
+
+## 
+
+
+   *&copy; 2024 by Nazar Pichak*
+
+
+
+
