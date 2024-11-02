@@ -121,7 +121,7 @@ Contributions and improvements are wellcome as well. Please feel free to report 
     ![alt text](images/img_3.png)
 
 
-3. Add your improvements to the code or documentation ⚒️⚒️⛏️🧑‍💻🧑‍💻🧑‍💻
+3. Add your improvements to the code or documentation ⚒️⚒️⛏️🧑‍💻🧑‍💻🧑‍💻 
 
 
     ![alt text](images/img_5.png)
