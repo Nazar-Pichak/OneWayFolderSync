@@ -1,5 +1,17 @@
 # One Way Folder Synchronization Script
 
+[![Python](https://img.shields.io/badge/python-3.12%2B-blue)](https://www.python.org/downloads/)
+[![Last Commit](https://img.shields.io/github/last-commit/Nazar-Pichak/One_Way_Folder_Sync)](https://github.com/Nazar-Pichak/One_Way_Folder_Sync/tree/main)
+[![Forks](https://img.shields.io/github/forks/Nazar-Pichak/One_Way_Folder_Sync)](https://github.com/Nazar-Pichak/One_Way_Folder_Sync/network)
+[![Stars](https://img.shields.io/github/stars/Nazar-Pichak/One_Way_Folder_Sync)](https://github.com/Nazar-Pichak/One_Way_Folder_Sync/stargazers)
+[![Issues](https://img.shields.io/github/issues/Nazar-Pichak/One_Way_Folder_Sync)](https://github.com/Nazar-Pichak/One_Way_Folder_Sync/issues)
+[![Contributors](https://img.shields.io/github/contributors/Nazar-Pichak/One_Way_Folder_Sync)](https://github.com/Nazar-Pichak/One_Way_Folder_Sync/graphs/contributors)
+
+[![Build Status](https://img.shields.io/github/actions/workflow/status/Nazar-Pichak/One_Way_Folder_Sync/CI_WORKFLOW.yml?branch=main)](https://github.com/Nazar-Pichak/One_Way_Folder_Sync/actions)
+[![License](https://img.shields.io/github/license/Nazar-Pichak/One_Way_Folder_Sync)](https://github.com/Nazar-Pichak/One_Way_Folder_Sync/blob/main/LICENSE.md)
+[![Downloads](https://img.shields.io/pypi/dm/PACKAGE_NAME)](https://pypi.org/project/PACKAGE_NAME/)
+
+
 ## Overview 👁️‍🗨️
 
 The code in the `main.py` is a Python script designed to synchronize the contents of a source directory with a destination directory. The script offers command-line arguments for flexibility, allowing users to specify paths for source and destination directories, define a log file location, and set a synchronization period.
@@ -67,76 +79,73 @@ If the user has opted to show hidden files, those sizes will be included in the 
 
 First ensure you have installed [Python](https://www.python.org/downloads/) and [pip](https://pip.pypa.io/en/stable/installation/) on your system.
 
-1. **Upgrade your pip:**
+**1. Upgrade your pip:**
 
-    `python -m pip install --upgrade pip`
+`python -m pip install --upgrade pip`
    
-2. **Clone repo:**
+**2. Clone repo:**
 
-    `git clone https://github.com/Nazar-Pichak/One_Way_Folder_Sync.git`
+`git clone https://github.com/Nazar-Pichak/One_Way_Folder_Sync.git`
 
-3. **Navigate into your git repo:**
+**3. Navigate into your git repo:**
 
-    `cd >> cloned git repo`
+`cd >> cloned git repo`
 
-4. **Create virtual environment:**
+**4. Create virtual environment:**
 
-    `python -m venv env`
+`python -m venv env`
  
-5. **Activate virtual environment:**
+**5. Activate virtual environment:**
 
-    ```
-    > .venv\Scripts\activate         <<< Windows
+```
+> .venv\Scripts\activate         <<< Windows
    
-    $ source .venv/bin/activate      <<< Unix/macOS
-    ```
-6. **Install dependencies into virtual environment:**
+$ source .venv/bin/activate      <<< Unix/macOS
+```
+**6. Install dependencies into virtual environment:**
 
-    `python -m pip install -r requirements.txt`
+`python -m pip install -r requirements.txt`
 
-7. **Run the code:**
+**7. Run the code:**
 
-    ```
-    cd >> src\
+```
+cd >> src\
 
-    \xxx\src> python main.py
+\xxx\src> python main.py
    
-    Enter needed arguments via command line (for conviniens):
+Enter needed arguments via command line (for conviniens):
     
-    \xxx\src> "C:\Users\your_name\Desktop\source_dir"  "C:\Users\your_name\Desktop\dest_dir" "C:\Users\your_name\Desktop\logfile.log"  10 
+\xxx\src> "C:\Users\your_name\Desktop\source_dir"  "C:\Users\your_name\Desktop\dest_dir" "C:\Users\your_name\Desktop\logfile.log"  10 
    
-    ```
-    ![alt text](images/img_1.png)
+```
+![alt text](images/img_1.png)
 
 ## Contribution guide 📝
 
 Contributions and improvements are wellcome as well. Please feel free to report any [issues](https://github.com/Nazar-Pichak/One_Way_Folder_Sync/issues) and bugs as this project is completely new.    
 
-1. **Make your king Fork 👇👇👇**
+**1. Make your king Fork 👇👇👇**
 
-    ![alt text](images/img_2.png)
+![alt text](images/img_2.png)
 
-2. **Clone Forked repository 👇👇👇**
+**2. Clone Forked repository 👇👇👇**
 
+![alt text](images/img_3.png)
 
-    ![alt text](images/img_3.png)
+**3. Add your improvements to the code or documentation ⚒️⚒️⛏️🧑‍💻🧑‍💻🧑‍💻** 
 
+![alt text](images/img_5.png)
 
-3. **Add your improvements to the code or documentation ⚒️⚒️⛏️🧑‍💻🧑‍💻🧑‍💻** 
+**4. Run tests and ensure all works fine ✅✅✅✅**
 
+```
+>> cd test\
+\xxx\test> pytest
+```
 
-    ![alt text](images/img_5.png)
+**6. Push changes and open your king Pull Request 👇👇👇**
 
-4. **Run tests and ensure all works fine ✅✅✅✅**
-
-   ```
-   >> cd test\
-   \xxx\test> pytest
-   ```
-
-6. **Push changes and open your king Pull Request 👇👇👇**
-
-    ![alt text](images/img_6.png)
+![alt text](images/img_6.png)
 
 ## 
 
