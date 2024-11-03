@@ -102,11 +102,13 @@ python -m venv env
 ```
  
 **5. Activate virtual environment:**
-
+- For Windows
 ```
-> .venv\Scripts\activate         <<< Windows
-   
-$ source .venv/bin/activate      <<< Unix/macOS
+.venv\Scripts\activate         
+```
+- For Unix/macOS 
+```
+source .venv/bin/activate    
 ```
 **6. Install dependencies into virtual environment:**
 
@@ -115,14 +117,16 @@ python -m pip install -r requirements.txt
 ```
 
 **7. Run the code:**
-
+- Navigate into `src` directory:
 ```
 cd >> src\
-
-\xxx\src> python main.py
-   
-Enter needed arguments via command line (for conviniens):
-    
+```
+- Run the script:
+``` 
+python main.py
+```
+- Enter needed arguments via command line (for conviniens):
+```    
 \xxx\src> "C:\Users\your_name\Desktop\source_dir"  "C:\Users\your_name\Desktop\dest_dir" "C:\Users\your_name\Desktop\logfile.log"  10 
    
 ```
@@ -142,18 +146,21 @@ Contributions and improvements are wellcome as well. Please feel free to report 
  git clone https://github.com/Nazar-Pichak/One_Way_Folder_Sync.git
 ```
 
-**3. Add your improvements to the code or documentation ⚒️⚒️⛏️🧑‍💻🧑‍💻🧑‍💻** 
+**3. Add your improvements to the code or documentation. ⚒️⚒️⛏️🧑‍💻🧑‍💻🧑‍💻** 
 
 ![alt text](images/img_5.png)
 
-**4. Run tests and ensure all works fine ✅✅✅✅**
-
+**4. Run tests and ensure all works fine.**
+- Navigate into `test` directory:
 ```
 >> cd test\
-\xxx\test> pytest
 ```
+- Run test itself by invoking `pytest` framework:
+```
+pytest
+```
+**5. If all tests are passed ✅✅✅✅ then Push changes and open your king Pull Request. 👇👇👇**
 
-**6. Push changes and open your king Pull Request 👇👇👇**
 
 ![alt text](images/img_6.png)
 
