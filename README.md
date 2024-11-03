@@ -6,11 +6,14 @@
 [![Stars](https://img.shields.io/github/stars/Nazar-Pichak/One_Way_Folder_Sync)](https://github.com/Nazar-Pichak/One_Way_Folder_Sync/stargazers)
 [![Issues](https://img.shields.io/github/issues/Nazar-Pichak/One_Way_Folder_Sync)](https://github.com/Nazar-Pichak/One_Way_Folder_Sync/issues)
 [![Contributors](https://img.shields.io/github/contributors/Nazar-Pichak/One_Way_Folder_Sync)](https://github.com/Nazar-Pichak/One_Way_Folder_Sync/graphs/contributors)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 
 [![Greetings Workflow](https://img.shields.io/github/actions/workflow/status/Nazar-Pichak/One_Way_Folder_Sync/greetings.yml?branch=main&label=Greetings)](https://github.com/Nazar-Pichak/One_Way_Folder_Sync/actions?query=workflow%3AGreetings)
 
 
 [![License](https://img.shields.io/github/license/Nazar-Pichak/One_Way_Folder_Sync)](https://github.com/Nazar-Pichak/One_Way_Folder_Sync/blob/main/LICENSE)
+
 [![Downloads](https://img.shields.io/pypi/dm/PACKAGE_NAME)](https://pypi.org/project/PACKAGE_NAME/)
 
 
