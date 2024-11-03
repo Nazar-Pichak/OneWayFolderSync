@@ -99,10 +99,11 @@ First ensure you have installed [Python](https://www.python.org/downloads/) and 
     ```
     cd >> src\
 
-    python main.py
+    \xxx\src\ python main.py
    
     Enter needed arguments via command line (for conviniens):
-    >>> "C:\Users\your_name\Desktop\source_dir"  "C:\Users\your_name\Desktop\dest_dir" "C:\Users\your_name\Desktop\logfile.log"  10 
+    
+    \xxx\src> "C:\Users\your_name\Desktop\source_dir"  "C:\Users\your_name\Desktop\dest_dir" "C:\Users\your_name\Desktop\logfile.log"  10 
    
     ```
     ![alt text](images/img_1.png)
@@ -130,7 +131,7 @@ Contributions and improvements are wellcome as well. Please feel free to report 
 
    ```
    >> cd test\
-   pytest
+   \xxx\test> pytest
    ```
 
 6. **Push changes and open your king Pull Request 👇👇👇**
