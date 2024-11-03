@@ -1,6 +1,6 @@
 # One Way Folder Synchronization Script
 
-## Overview
+## Overview 👁️‍🗨️
 
 The code in the `main.py` is a Python script designed to synchronize the contents of a source directory with a destination directory. The script offers command-line arguments for flexibility, allowing users to specify paths for source and destination directories, define a log file location, and set a synchronization period.
 
@@ -26,7 +26,7 @@ The code in the `main.py` is a Python script designed to synchronize the content
 - `unittest`, `paytest`: For different types of testing.
 - `tempfile`: For createting temporary files and directories for testing needs.
 
-## Explanation and complexity
+## Explanation and complexity 🤔
 
 When file explorers count the memory size of hidden files and folders, they typically follow a set of steps that involve file system interactions and specific rules about what constitutes a "hidden" file. Here’s a detailed explanation of how this process generally works:
 
