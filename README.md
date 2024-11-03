@@ -10,7 +10,7 @@
 [![Greetings Workflow](https://img.shields.io/github/actions/workflow/status/Nazar-Pichak/One_Way_Folder_Sync/greetings.yml?branch=main&label=Greetings)](https://github.com/Nazar-Pichak/One_Way_Folder_Sync/actions?query=workflow%3AGreetings)
 
 
-[![License](https://img.shields.io/github/license/Nazar-Pichak/One_Way_Folder_Sync)](https://github.com/Nazar-Pichak/One_Way_Folder_Sync/blob/main/LICENSE.md)
+[![License](https://img.shields.io/github/license/Nazar-Pichak/One_Way_Folder_Sync)](https://github.com/Nazar-Pichak/One_Way_Folder_Sync/blob/main/LICENSE)
 [![Downloads](https://img.shields.io/pypi/dm/PACKAGE_NAME)](https://pypi.org/project/PACKAGE_NAME/)
 
 
