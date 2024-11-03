@@ -99,7 +99,7 @@ First ensure you have installed [Python](https://www.python.org/downloads/) and 
     ```
     cd >> src\
 
-    \xxx\src\ python main.py
+    \xxx\src> python main.py
    
     Enter needed arguments via command line (for conviniens):
     
