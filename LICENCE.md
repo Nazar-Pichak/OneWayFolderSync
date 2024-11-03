@@ -14,4 +14,4 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 This license shall be included in all copies or substantial portions of the Software.
 
 
-**Copyright &copy; Nazar Pichak**
+**&copy; 2024 by Nazar Pichak**
