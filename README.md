@@ -130,7 +130,8 @@ python main.py
 \xxx\src> "C:\Users\your_name\Desktop\source_dir"  "C:\Users\your_name\Desktop\dest_dir" "C:\Users\your_name\Desktop\logfile.log"  10 
    
 ```
-![alt text](images/img_1.png)
+So now it will create an identical copy of the `source directory` into previous desired place. As this is one way synchronization, we have to assume that `source directory` is a **main**.
+To see general functionality, make any changes to the `source directory` by creating, deleting, updating files and folders.    
 
 ## Contribution guide 📝
 
