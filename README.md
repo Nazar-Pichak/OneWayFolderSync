@@ -109,7 +109,7 @@ First ensure you have installed [Python](https://www.python.org/downloads/) and 
 
 ## Contribution guide 📝
 
-Contributions and improvements are wellcome as well. Please feel free to report any issues and bugs as this project is completely new.    
+Contributions and improvements are wellcome as well. Please feel free to report any [issues](https://github.com/Nazar-Pichak/One_Way_Folder_Sync/issues) and bugs as this project is completely new.    
 
 1. **Make your king Fork 👇👇👇**
 
