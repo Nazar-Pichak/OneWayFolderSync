@@ -79,19 +79,27 @@ First ensure you have installed [Python](https://www.python.org/downloads/) and 
 
 **1. Upgrade your pip:**
 
-`python -m pip install --upgrade pip`
+```
+python -m pip install --upgrade pip
+```
    
 **2. Clone repo:**
 
-`git clone https://github.com/Nazar-Pichak/One_Way_Folder_Sync.git`
+```
+git clone https://github.com/Nazar-Pichak/One_Way_Folder_Sync.git
+```
 
 **3. Navigate into your git repo:**
 
-`cd >> cloned git repo`
+```
+cd >> cloned git repo
+```
 
 **4. Create virtual environment:**
 
-`python -m venv env`
+```
+python -m venv env
+```
  
 **5. Activate virtual environment:**
 
@@ -102,7 +110,9 @@ $ source .venv/bin/activate      <<< Unix/macOS
 ```
 **6. Install dependencies into virtual environment:**
 
-`python -m pip install -r requirements.txt`
+```
+python -m pip install -r requirements.txt
+```
 
 **7. Run the code:**
 
@@ -122,13 +132,15 @@ Enter needed arguments via command line (for conviniens):
 
 Contributions and improvements are wellcome as well. Please feel free to report any [issues](https://github.com/Nazar-Pichak/One_Way_Folder_Sync/issues) and bugs as this project is completely new.    
 
-**1. Make your king Fork 👇👇👇**
+**1. Make your king Fork. This will create a copy of the repository in your GitHub account. 👇👇👇**
 
 ![alt text](images/img_2.png)
 
-**2. Clone Forked repository 👇👇👇**
+**2. Clone Forked repository localy. 👇👇👇**
 
-![alt text](images/img_3.png)
+```
+ git clone https://github.com/Nazar-Pichak/One_Way_Folder_Sync.git
+```
 
 **3. Add your improvements to the code or documentation ⚒️⚒️⛏️🧑‍💻🧑‍💻🧑‍💻** 
 
