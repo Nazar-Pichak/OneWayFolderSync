@@ -63,7 +63,7 @@ If the user has opted to show hidden files, those sizes will be included in the 
 > Based on this we can make decision that we can't see visually a whole memory size of the some folders in the file explorers (Windows, Linux, MacOS) even when we copy them. The original and copy looks the same,
 > but in case copying via programming code operations we can run into a strange difference in memory size of original and a copy of the same folder.** 
 
-## Installation and usage guide
+## Installation and usage guide ⚙️
 
 First ensure you have installed [Python](https://www.python.org/downloads/) and [pip](https://pip.pypa.io/en/stable/installation/) on your system.
 
@@ -126,7 +126,7 @@ Contributions and improvements are wellcome as well. Please feel free to report 
 
     ![alt text](images/img_5.png)
 
-4. **Run tests and ensure all works fine 🎯🎯🎯**
+4. **Run tests and ensure all works fine ✅✅✅✅**
 
    ```
    >> cd test\
