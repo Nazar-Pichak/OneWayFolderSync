@@ -107,7 +107,7 @@ First ensure you have installed [Python](https://www.python.org/downloads/) and 
     ```
     ![alt text](images/img_1.png)
 
-## Contribution guide
+## Contribution guide 📝
 
 Contributions and improvements are wellcome as well. Please feel free to report any issues and bugs as this project is completely new.    
 
@@ -126,7 +126,14 @@ Contributions and improvements are wellcome as well. Please feel free to report 
 
     ![alt text](images/img_5.png)
 
-4. **Push changes and open your king Pull Request 👇👇👇**
+4. **Run tests and ensure all works fine 🎯🎯🎯**
+
+   ```
+   >> cd test\
+   pytest
+   ```
+
+6. **Push changes and open your king Pull Request 👇👇👇**
 
     ![alt text](images/img_6.png)
 
