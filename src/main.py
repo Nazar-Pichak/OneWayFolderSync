@@ -63,7 +63,6 @@ class DirComparisonWithHidden(filecmp.dircmp):
 # Logger
 def setup_logger(log_path):
     
-    # Logger
     logger = logging.getLogger("sync_logger")
     logger.setLevel(logging.DEBUG)
     # create file handler which logs even debug messages
