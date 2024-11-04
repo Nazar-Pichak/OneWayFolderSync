@@ -11,7 +11,6 @@
 
 
 
-
 <picture>
    <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f441_fe0f/512.webp" type="image/webp">
    <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f441_fe0f/512.gif" alt="👁" width="38" height="38">
@@ -51,17 +50,22 @@ The code in the `main.py` is a Python script designed to synchronize the content
 When file explorers count the memory size of hidden files and folders, they typically follow a set of steps that involve file system interactions and specific rules about what constitutes a "hidden" file. Here’s a detailed explanation of how this process generally works:
 
 ### 1. File System Interactions
+
 File explorers interact with the file system to gather information about files and directories. The file system keeps track of various attributes of each file, including:
 
 File Name: The name of the file or directory.
 Size: The size of the file in bytes.
 Attributes: Metadata that indicates whether a file is hidden, read-only, system, etc.
+
 ### 2. Identifying Hidden Files
+
 Hidden files are usually identified based on certain attributes. The criteria for what constitutes a hidden file can vary between operating systems:
 
 Windows: A file is hidden if it has the hidden attribute set in its properties. This can be checked using the file properties dialog or programmatically through system calls.
 Unix/Linux: A file is considered hidden if its name starts with a dot (.). For example, .hiddenfile is a hidden file, while hiddenfile is not.
+
 ### 3. Traversing Directories
+
 When counting the size of files in a directory, file explorers typically do the following:
 
 Recursive Traversal: The explorer may traverse directories recursively, meaning it will go into each subdirectory and repeat the process of checking for files and folders.
@@ -257,6 +261,8 @@ pytest
   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2705/512.webp" type="image/webp">
   <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/2705/512.gif" alt="✅" width="38" height="38">
 </picture>
+
+##
 
 **7. If all tests are passed ✅✅✅✅ then create commits and push changes**
 
