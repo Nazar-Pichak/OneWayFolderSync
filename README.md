@@ -215,7 +215,7 @@ git checkout -b your_branch_name
 ![wired-lineal-1322-python-code-language-hover-pinch (1)](https://github.com/user-attachments/assets/a14a3609-f02b-4aac-bbe7-d081c505672c)
 
 
-**6. Run tests and ensure all works fine with any breakdowns**
+**6. Run tests and ensure all works fine without any breakdowns**
 
 - Navigate into `test` directory:
 ```
