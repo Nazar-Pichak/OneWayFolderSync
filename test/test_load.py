@@ -1,4 +1,4 @@
-import unittest
+noimport unittest
 import os
 import tempfile
 import logging
@@ -30,7 +30,7 @@ class TestSyncLoad(unittest.TestCase):
         for handler in logger.handlers[:]:
             handler.close()
             logger.removeHandler(handler)
-        # Remove source and destination directories from the desktop
+        # Remove source and destination directories
         shutil.rmtree(self.source_dir, ignore_errors=True)
         shutil.rmtree(self.destination_dir, ignore_errors=True)
         # Remove log file if it exists
