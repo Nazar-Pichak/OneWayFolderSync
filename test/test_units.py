@@ -42,7 +42,7 @@ class TestSyncScript(unittest.TestCase):
         for handler in logger.handlers[:]:
             logger.removeHandler(handler)
             handler.close()
-        # Remove source and destination directories from the desktop
+        # Remove source and destination directories 
         shutil.rmtree(self.source_dir, ignore_errors=True)
         shutil.rmtree(self.destination_dir, ignore_errors=True)
         # Remove log file if it exists

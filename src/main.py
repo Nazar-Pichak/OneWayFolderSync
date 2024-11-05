@@ -52,7 +52,6 @@ class DirComparisonWithHidden(filecmp.dircmp):
         """
         Override to include hidden files in subdirectories.
         """
-        # Perform recursive comparison, including all subdirectories (hidden and non-hidden)
         self.subdirs = {
             item: DirComparisonWithHidden(os.path.join(self.left, item),
             os.path.join(self.right, item), self.ignore, self.hide) for item in self.common_dirs
@@ -109,12 +108,12 @@ def is_hidden(path):
 # Function for changing mode of hidden files and directories
 def remove_readonly(func, path, _):
     """Clear read-only or hidden attributes and retry deletion."""
-    os.chmod(path, stat.S_IWRITE)  # Change file to writable
+    os.chmod(path, stat.S_IWRITE)  
     func(path)  # Retry the deletion
     
 # ------------------------------------------------------------------------------------ 
 
-""" Wrapper function over all functionality of program.
+""" Wrapper function over functionality of program.
     Convinient way for testing porpuses by excluding argparse objects from testing module."""
 
 def command_line_arguments_wrapper(args):
@@ -136,12 +135,10 @@ def command_line_arguments_wrapper(args):
             except Exception as e:
                 logger.error(f"Error deleting: {e} --> {DESTINATION_DIR_PATH}")  
                      
-    # ------------------------------------------------------------------------------------ 
-    # ------------------------------------------------------------------------------------
+                     
     # Directory synchronization function
     def one_way_synchronization(source_dir, destination_dir):
 
-        # Ensure both source and destination directory exists
         if not os.path.exists(source_dir):
             logger.error(f"Source directory: {source_dir} does not exist. Enter a valid path and run the script again.")
             os.kill(os.getpid(), signal.SIGINT)
