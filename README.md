@@ -10,17 +10,7 @@
 [![Greetings Workflow](https://img.shields.io/github/actions/workflow/status/Nazar-Pichak/One_Way_Folder_Sync/greetings.yml?branch=main&label=Greetings)](https://github.com/Nazar-Pichak/One_Way_Folder_Sync/actions?query=workflow%3AGreetings)
 
 
-
-<picture>
-   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f441_fe0f/512.webp" type="image/webp">
-   <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f441_fe0f/512.gif" alt="👁" width="38" height="38">
-</picture>
-<picture>
-   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f441_fe0f/512.webp" type="image/webp">
-   <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f441_fe0f/512.gif" alt="👁" width="38" height="38">
-</picture>
-
-# Overview
+# Overview <picture>  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f441_fe0f/512.webp" type="image/webp"> <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f441_fe0f/512.gif" alt="👁" width="38" height="38"> </picture> <picture><source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f441_fe0f/512.webp" type="image/webp"> <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f441_fe0f/512.gif" alt="👁" width="38" height="38"></picture>
 The code in the `main.py` is a Python script designed to synchronize the contents of a source directory with a destination directory. The script offers command-line arguments for flexibility, allowing users to specify paths for source and destination directories, define a log file location, and set a synchronization period.
 
 ### Key Features:
@@ -146,7 +136,7 @@ cd >> src\
 ``` 
 python main.py
 ```
-- Enter needed arguments via command line for example:
+- Enter needed arguments via command line, for example:
 ```    
 \xxx\src> "C:\Users\your_name\Desktop\source_dir"  "C:\Users\your_name\Desktop\dest_dir" "C:\Users\your_name\Desktop\logfile.log"  10 
    
@@ -167,8 +157,8 @@ python main.py
   <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f680/512.gif" alt="🚀" width="38" height="38">
 </picture>
 
-So now when our **rocket** is running, it will create an identical copy of the `source directory` into previous desired place. As this is one way synchronization, we have to assume that `source directory` is a **main**.
-To see general functionality, make any changes to the `source directory` by creating, deleting, updating files and folders while script is running with infinit loop.
+So now, when our **rocket** is running, it will create an identical copy of the `source directory` into previous desired places. As this is one way synchronization, we have to assume that `source directory` is a **main** directory.
+To see general functionality, make any changes to the `source directory` by creating, deleting, updating files and folders while script is running with infinit loop and follow changes into `destination directory`. We have to see that both directories are the same.   
 
 ## Contribution guide 📝
 
