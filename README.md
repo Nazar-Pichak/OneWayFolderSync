@@ -157,8 +157,8 @@ python main.py
   <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f680/512.gif" alt="🚀" width="38" height="38">
 </picture>
 
-So now, when our **rocket** is running, it will create an identical copy of the `source directory` into previous desired places. As this is one way synchronization, we have to assume that `source directory` is a **main** directory.
-To see general functionality, make any changes to the `source directory` by creating, deleting, updating files and folders while script is running with infinit loop and follow changes into `destination directory`. We have to see that both directories are the same.   
+So now, when our **rocket** is running, it will create an identical copy of the `source directory` into previous desired place. As this is one way synchronization, we have to assume that `source directory` is a **main** directory.
+To see general functionality, make any changes to the `source directory` by creating, deleting, updating files and folders while script is running with infinit loop and follow changes into `destination directory`. We have to see that both directories are the same. However when you try to change content of the `destination directory`, it will be overwritten corresponding to the content of the `source directory`.    
 
 ## Contribution guide <picture> <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/270f_fe0f/512.webp" type="image/webp"> <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/270f_fe0f/512.gif" alt="✏" width="32" height="32"> </picture>
 
