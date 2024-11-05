@@ -35,7 +35,7 @@ The code in the `main.py` is a Python script designed to synchronize the content
 - `unittest`, `paytest`: For different types of testing.
 - `tempfile`: For createting temporary files and directories for testing needs.
 
-## Explanation and complexity 🤔
+## Explanation and complexity <picture><source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f914/512.webp" type="image/webp"><img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f914/512.gif" alt="🤔" width="32" height="32"></picture>
 
 When file explorers count the memory size of hidden files and folders, they typically follow a set of steps that involve file system interactions and specific rules about what constitutes a "hidden" file. Here’s a detailed explanation of how this process generally works:
 
@@ -82,7 +82,7 @@ If the user has opted to show hidden files, those sizes will be included in the 
 > Based on this we can make decision that we can't see visually a whole memory size of the some folders in the file explorers (Windows, Linux, MacOS) even when we copy them. The original and copy looks the same,
 > but in case copying via programming code operations we can run into a strange difference in memory size of original and a copy of the same folder.** 
 
-## Installation and usage guide ⚙️
+## Installation and usage guide <picture> <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2699_fe0f/512.webp" type="image/webp"> <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/2699_fe0f/512.gif" alt="⚙" width="32" height="32"></picture>
 
 First ensure you have installed [Python](https://www.python.org/downloads/) and [pip](https://pip.pypa.io/en/stable/installation/) on your system.
 
@@ -160,7 +160,7 @@ python main.py
 So now, when our **rocket** is running, it will create an identical copy of the `source directory` into previous desired places. As this is one way synchronization, we have to assume that `source directory` is a **main** directory.
 To see general functionality, make any changes to the `source directory` by creating, deleting, updating files and folders while script is running with infinit loop and follow changes into `destination directory`. We have to see that both directories are the same.   
 
-## Contribution guide 📝
+## Contribution guide <picture> <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/270f_fe0f/512.webp" type="image/webp"> <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/270f_fe0f/512.gif" alt="✏" width="32" height="32"> </picture>
 
 Contributions and improvements are wellcome as well. Please feel free to report any [issues](https://github.com/Nazar-Pichak/One_Way_Folder_Sync/issues) and bugs as this project is completely new. Improvments are still being made.
 You can also take this script as a basis for implementing **two way folder synchronization** for example, and create a new branch with more complex functionality.     
@@ -307,7 +307,7 @@ git push origin your_branch_name
   <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f44f/512.gif" alt="👏" width="38" height="38">
 </picture>
 
-**9. Congratulations, you have done it.**
+**12. Congratulations, you have done it.**
 
 ## 
 
