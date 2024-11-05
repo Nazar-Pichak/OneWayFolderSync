@@ -162,7 +162,8 @@ To see general functionality, make any changes to the `source directory` by crea
 
 ## Contribution guide 📝
 
-Contributions and improvements are wellcome as well. Please feel free to report any [issues](https://github.com/Nazar-Pichak/One_Way_Folder_Sync/issues) and bugs as this project is completely new.    
+Contributions and improvements are wellcome as well. Please feel free to report any [issues](https://github.com/Nazar-Pichak/One_Way_Folder_Sync/issues) and bugs as this project is completely new. Improvments are still being made.
+You can also take this script as a basis for implementing **two way folder synchronization** for example, and create a new branch with more complex functionality.     
 
 **1. Make your king Fork. This will create a copy of the repository in your GitHub account 👇👇👇**
 
