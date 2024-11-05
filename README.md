@@ -291,7 +291,7 @@ git commit -m "Description of changes made"
 git push origin your_branch_name
 ```
 
-**11. Open your king Pull Request. 👇👇👇**
+**11. Open your king Pull Request 👇👇👇**
 
 ![alt text](images/img_6.png)
 
@@ -308,7 +308,7 @@ git push origin your_branch_name
   <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f44f/512.gif" alt="👏" width="38" height="38">
 </picture>
 
-**12. Congratulations, you have done it.**
+**12. Congratulations, you have done it**
 
 ## 
 
