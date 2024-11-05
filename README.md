@@ -53,35 +53,35 @@ When file explorers count the memory size of hidden files and folders, they typi
 
 File explorers interact with the file system to gather information about files and directories. The file system keeps track of various attributes of each file, including:
 
-File Name: The name of the file or directory.
-Size: The size of the file in bytes.
-Attributes: Metadata that indicates whether a file is hidden, read-only, system, etc.
+- **File Name:** The name of the file or directory.
+- **Size:** The size of the file in bytes.
+- **Attributes:** Metadata that indicates whether a file is hidden, read-only, system, etc.
 
 ### 2. Identifying Hidden Files
 
 Hidden files are usually identified based on certain attributes. The criteria for what constitutes a hidden file can vary between operating systems:
 
-Windows: A file is hidden if it has the hidden attribute set in its properties. This can be checked using the file properties dialog or programmatically through system calls.
-Unix/Linux: A file is considered hidden if its name starts with a dot (.). For example, .hiddenfile is a hidden file, while hiddenfile is not.
+- **Windows:** A file is hidden if it has the hidden attribute set in its properties. This can be checked using the file properties dialog or programmatically through system calls.
+- **Unix/Linux:** A file is considered hidden if its name starts with a dot (.). For example, `.hiddenfile` is a hidden file, while `hiddenfile` is not.
 
 ### 3. Traversing Directories
 
 When counting the size of files in a directory, file explorers typically do the following:
 
-Recursive Traversal: The explorer may traverse directories recursively, meaning it will go into each subdirectory and repeat the process of checking for files and folders.
-Include/Exclude Hidden Files: Depending on the settings or the user’s preferences, the explorer may include or exclude hidden files in its size calculation.
+- **Recursive Traversal:** The explorer may traverse directories recursively, meaning it will go into each subdirectory and repeat the process of checking for files and folders.
+- **Include/Exclude Hidden Files:** Depending on the settings or the user’s preferences, the explorer may include or exclude hidden files in its size calculation.
 
 ### 4. Calculating Size
 
 For each file or folder that the explorer encounters, it will perform the following steps:
 
-Size Calculation:
+- **Size Calculation:**
 For regular files, the explorer retrieves the size attribute and adds it to a running total.
 For directories, the explorer may add the sizes of all files contained within them (including sizes of subdirectories and their files) to get the total size of that directory.
 
 ### 5. Displaying Results
 
-After traversing the entire directory structure and calculating the sizes:
+- **After traversing the entire directory structure and calculating the sizes:**
 
 The explorer will typically display the total size of the selected directory and its contents, which can include both visible and hidden files, depending on user settings.
 If the user has opted to show hidden files, those sizes will be included in the total. If not, they will be omitted.
