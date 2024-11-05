@@ -71,9 +71,9 @@ For directories, the explorer may add the sizes of all files contained within th
 
 ### 5. Displaying Results
 
-- **After traversing the entire directory structure and calculating the sizes:**
+After traversing the entire directory structure and calculating the sizes,
 
-The explorer will typically display the total size of the selected directory and its contents, which can include both visible and hidden files, depending on user settings.
+the explorer will typically display the total size of the selected directory and its contents, which can include both visible and hidden files, depending on user settings.
 If the user has opted to show hidden files, those sizes will be included in the total. If not, they will be omitted.
 
 ## Useful researches 🔎
