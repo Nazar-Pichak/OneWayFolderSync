@@ -35,7 +35,7 @@ The code in the `main.py` is a Python script designed to synchronize the content
 - `unittest`, `paytest`: For different types of testing.
 - `tempfile`: For createting temporary files and directories for testing needs.
 
-## Explanation and complexity <picture><source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f914/512.webp" type="image/webp"><img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f914/512.gif" alt="🤔" width="32" height="32"></picture>
+## Explanation and complexity as a base of project <picture><source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f914/512.webp" type="image/webp"><img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f914/512.gif" alt="🤔" width="32" height="32"></picture>
 
 When file explorers count the memory size of hidden files and folders, they typically follow a set of steps that involve file system interactions and specific rules about what constitutes a "hidden" file. Here’s a detailed explanation of how this process generally works:
 
@@ -92,7 +92,7 @@ First ensure you have installed [Python](https://www.python.org/downloads/) and 
 python -m pip install --upgrade pip
 ```
    
-**2. Clone repo:**
+**2. Clone repo**
 
 ```
 git clone https://github.com/your_name/One_Way_Folder_Sync.git
