@@ -86,7 +86,7 @@ If the user has opted to show hidden files, those sizes will be included in the 
 
 First ensure you have installed [Python](https://www.python.org/downloads/) and [pip](https://pip.pypa.io/en/stable/installation/) on your system.
 
-**1. Upgrade your pip:**
+**1. Upgrade your pip**
 
 ```
 python -m pip install --upgrade pip
@@ -98,35 +98,35 @@ python -m pip install --upgrade pip
 git clone https://github.com/your_name/One_Way_Folder_Sync.git
 ```
 
-**3. Navigate into your git repo:**
+**3. Navigate into your git repo**
 
 ```
 cd >> cloned repo
 ```
 
-**4. Create virtual environment:**
+**4. Create virtual environment**
 
 ```
 python -m venv env
 ```
  
-**5. Activate virtual environment:**
+**5. Activate virtual environment**
 
-- For Windows
+- For Windows:
 ```
 .venv\Scripts\activate         
 ```
-- For Unix/macOS 
+- For Unix/macOS:
 ```
 source .venv/bin/activate    
 ```
-**6. Install dependencies into virtual environment:**
+**6. Install dependencies into virtual environment**
 
 ```
 python -m pip install -r requirements.txt
 ```
 
-**7. Run the code:**
+**7. Run the code**
 
 - Navigate into `src` directory:
 ```
@@ -142,7 +142,7 @@ python main.py
    
 ```
 
-**8. Results:**
+**8. Results**
 
 <picture>
   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f680/512.webp" type="image/webp">
@@ -195,17 +195,17 @@ git remote -v
 ```
 python -m venv env
 ```
-**5. Activate virtual environment:**
+**5. Activate virtual environment**
 
-- For Windows
+- For Windows:
 ```
 .venv\Scripts\activate         
 ```
-- For Unix/macOS 
+- For Unix/macOS:
 ```
 source .venv/bin/activate    
 ```
-**6. Install dependencies into virtual environment:**
+**6. Install dependencies into virtual environment**
 
 ```
 python -m pip install -r requirements.txt
