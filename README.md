@@ -105,13 +105,13 @@ python -m pip install --upgrade pip
 **2. Clone repo:**
 
 ```
-git clone https://github.com/Nazar-Pichak/One_Way_Folder_Sync.git
+git clone https://github.com/your_name/One_Way_Folder_Sync.git
 ```
 
 **3. Navigate into your git repo:**
 
 ```
-cd >> cloned git repo
+cd >> cloned repo
 ```
 
 **4. Create virtual environment:**
@@ -146,7 +146,7 @@ cd >> src\
 ``` 
 python main.py
 ```
-- Enter needed arguments via command line (for conviniens):
+- Enter needed arguments via command line for example:
 ```    
 \xxx\src> "C:\Users\your_name\Desktop\source_dir"  "C:\Users\your_name\Desktop\dest_dir" "C:\Users\your_name\Desktop\logfile.log"  10 
    
@@ -183,7 +183,7 @@ Contributions and improvements are wellcome as well. Please feel free to report 
 **2. Clone Forked repository localy 👇👇👇**
 
 ```
- git clone https://github.com/Nazar-Pichak/One_Way_Folder_Sync.git
+ git clone https://github.com/your_name/One_Way_Folder_Sync.git
 ```
 **3. Set Up the Upstream Remote**
 
@@ -193,13 +193,35 @@ cd >> cloned repo
 ```
 - Add the original repository as an upstream remote to keep your fork in sync:
 ```
-git remote add upstream https://github.com/Nazar-Pichak/One_Way_Folder_Sync.git
+git remote add upstream https://github.com/original_name/One_Way_Folder_Sync.git
 ```
+This allows you to keep your forked repository up-to-date with the latest changes from the main repository.
+
 - Verify remotes with:
 ```
 git remote -v
 ```
-**4. Create a new branch**
+**4. Setting up the local environment**
+```
+python -m venv env
+```
+**5. Activate virtual environment:**
+
+- For Windows
+```
+.venv\Scripts\activate         
+```
+- For Unix/macOS 
+```
+source .venv/bin/activate    
+```
+**6. Install dependencies into virtual environment:**
+
+```
+python -m pip install -r requirements.txt
+``` 
+
+**7. Create a new branch**
 
 - Before making any changes, create a new branch to keep your work organized and isolated.
 - Run command:
@@ -207,7 +229,7 @@ git remote -v
 git checkout -b your_branch_name
 ```
 
-**5. Add your Python improvements to the code or documentation**
+**8. Add your Python improvements to the code or documentation**
 
 ![wired-lineal-1322-python-code-language-hover-pinch (1)](https://github.com/user-attachments/assets/a14a3609-f02b-4aac-bbe7-d081c505672c) 
 ![wired-lineal-1322-python-code-language-hover-pinch (1)](https://github.com/user-attachments/assets/a14a3609-f02b-4aac-bbe7-d081c505672c) 
@@ -215,7 +237,7 @@ git checkout -b your_branch_name
 ![wired-lineal-1322-python-code-language-hover-pinch (1)](https://github.com/user-attachments/assets/a14a3609-f02b-4aac-bbe7-d081c505672c)
 
 
-**6. Run tests and ensure all works fine without any breakdowns**
+**9. Run tests and ensure all works fine without any breakdowns**
 
 - Navigate into `test` directory:
 ```
@@ -231,8 +253,8 @@ pytest
   <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/2705/512.gif" alt="✅" width="38" height="38">
 </picture>
 <picture>
-  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2705/512.webp" type="image/webp">
-  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/2705/512.gif" alt="✅" width="38" height="38">
+  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/274c/512.webp" type="image/webp">
+  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/274c/512.gif" alt="❌" width="38" height="38">
 </picture>
 <picture>
   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2705/512.webp" type="image/webp">
@@ -264,7 +286,7 @@ pytest
 
 ##
 
-**7. If all tests are passed ✅✅✅✅ then create commits and push changes**
+**10. If all tests are passed ✅✅✅✅ then create commits and push changes**
 
 - Once you’re happy with your changes, stage them:
 ```
@@ -279,7 +301,7 @@ git commit -m "Description of changes made"
 git push origin your_branch_name
 ```
 
-**8. Open your king Pull Request. 👇👇👇**
+**11. Open your king Pull Request. 👇👇👇**
 
 ![alt text](images/img_6.png)
 
