@@ -154,23 +154,21 @@ python main.py
 
 **8. Results:**
 
+<picture>
+  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f680/512.webp" type="image/webp">
+  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f680/512.gif" alt="🚀" width="38" height="38">
+</picture>
+<picture>
+  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f680/512.webp" type="image/webp">
+  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f680/512.gif" alt="🚀" width="38" height="38">
+</picture>
+<picture>
+  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f680/512.webp" type="image/webp">
+  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f680/512.gif" alt="🚀" width="38" height="38">
+</picture>
 
-
-So now it will create an identical copy of the `source directory` into previous desired place. As this is one way synchronization, we have to assume that `source directory` is a **main**.
+So now when our **rocket** is running, it will create an identical copy of the `source directory` into previous desired place. As this is one way synchronization, we have to assume that `source directory` is a **main**.
 To see general functionality, make any changes to the `source directory` by creating, deleting, updating files and folders while script is running with infinit loop.
-
-<picture>
-  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f680/512.webp" type="image/webp">
-  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f680/512.gif" alt="🚀" width="38" height="38">
-</picture>
-<picture>
-  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f680/512.webp" type="image/webp">
-  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f680/512.gif" alt="🚀" width="38" height="38">
-</picture>
-<picture>
-  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f680/512.webp" type="image/webp">
-  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f680/512.gif" alt="🚀" width="38" height="38">
-</picture>
 
 ## Contribution guide 📝
 
