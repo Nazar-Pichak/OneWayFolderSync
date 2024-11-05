@@ -308,12 +308,12 @@ git push origin your_branch_name
   <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f44f/512.gif" alt="👏" width="38" height="38">
 </picture>
 
-**12. Congratulations, you have done it**
+**12. Congratulations, you have done it.**
 
 ## 
 
 
-   **&copy; 2024 by Nazar Pichak**
+   **&copy; 2024 by Nazar Pichak.**
 
 
 
