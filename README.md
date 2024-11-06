@@ -71,7 +71,7 @@ For directories, the explorer may add the sizes of all files contained within th
 
 ### 5. Displaying Results
 
-After traversing the entire directory structure and calculating the sizes,the explorer will typically display the total size of the selected directory and its contents, which can include both visible and hidden files, depending on user settings.
+After traversing the entire directory structure and calculating the sizes, the explorer will typically display the total size of the selected directory and its contents, which can include both visible and hidden files, depending on user settings.
 If the user has opted to show hidden files, those sizes will be included in the total. If not, they will be omitted.
 
 ## Useful researches 🔎
@@ -136,7 +136,7 @@ python main.py
 ```
 - Enter needed arguments via command line, for example:
 ```    
-\xxx\src> "C:\Users\your_name\Desktop\source_dir"  "C:\Users\your_name\Desktop\dest_dir" "C:\Users\your_name\Desktop\logfile.log"  10 
+\xxx\src> python main.py "C:\Users\your_name\Desktop\source_dir"  "C:\Users\your_name\Desktop\dest_dir" "C:\Users\your_name\Desktop\logfile.log"  10 
    
 ```
 
