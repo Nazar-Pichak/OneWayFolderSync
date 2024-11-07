@@ -93,7 +93,7 @@ python -m pip install --upgrade pip
 **2. Clone repo**
 
 ```
-git clone https://github.com/your_name/One_Way_Folder_Sync.git
+git clone https://github.com/Nazar-Pichak/One_Way_Folder_Sync.git
 ```
 
 **3. Navigate into your git repo**
@@ -181,7 +181,7 @@ cd >> cloned repo
 ```
 - Add the original repository as an upstream remote to keep your fork in sync:
 ```
-git remote add upstream https://github.com/original_name/One_Way_Folder_Sync.git
+git remote add upstream https://github.com/Nazar-Pichak/One_Way_Folder_Sync.git
 ```
 This allows you to keep your forked repository up-to-date with the latest changes from the main repository.
 
