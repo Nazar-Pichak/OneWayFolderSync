@@ -233,7 +233,7 @@ git checkout -b your_branch_name
 ```
 - Run test itself by invoking `pytest` framework:
 ```
-pytest
+pytest -v
 ```
 
 <picture>
