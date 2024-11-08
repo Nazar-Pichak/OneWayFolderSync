@@ -77,7 +77,7 @@ If the user has opted to show hidden files, those sizes will be included in the 
 ## Useful researches 🔎
 
 > **File explorers often do not include hidden files and folders in their calculations of memory size for a few key reasons related to user experience, system performance, and the nature of hidden files themselves.
-> Based on this we can make decision that we can't see visually a whole memory size of the some folders in the file explorers (Windows, Linux, MacOS) even when we copy them. The original and copy looks the same,
+> Based on this we can make a conclusion that we can't see visually a whole memory size of the some folders in the file explorers (Windows, Linux, MacOS) even when we copy them. The original and copy looks the same,
 > but in case copying via programming code operations we can run into a strange difference in memory size of original and a copy of the same folder.** 
 
 ## Installation and usage guide <picture> <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2699_fe0f/512.webp" type="image/webp"> <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/2699_fe0f/512.gif" alt="⚙" width="32" height="32"></picture>
