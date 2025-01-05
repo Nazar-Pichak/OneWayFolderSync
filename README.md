@@ -93,7 +93,7 @@ python -m pip install --upgrade pip
 **2. Clone repo**
 
 ```
-git clone https://github.com/Nazar-Pichak/One_Way_Folder_Sync.git
+git clone https://github.com/Nazar-Pichak/OneWayFolderSync.git
 ```
 
 **3. Navigate into your git repo**
@@ -171,7 +171,7 @@ You can also take this script as a basis for implementing **two way folder synch
 **2. Clone Forked repository localy 👇👇👇**
 
 ```
- git clone https://github.com/your_name/One_Way_Folder_Sync.git
+ git clone https://github.com/Nazar-Pichak/OneWayFolderSync.git
 ```
 **3. Set Up the Upstream Remote**
 
