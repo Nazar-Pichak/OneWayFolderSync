@@ -105,7 +105,7 @@ cd >> cloned repo
 **4. Create virtual environment**
 
 ```
-python -m venv env
+python -m venv venv
 ```
  
 **5. Activate virtual environment**
@@ -191,7 +191,7 @@ git remote -v
 ```
 **4. Setting up the local environment**
 ```
-python -m venv env
+python -m venv venv
 ```
 **5. Activate virtual environment**
 
