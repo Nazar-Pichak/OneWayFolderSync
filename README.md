@@ -99,7 +99,7 @@ git clone https://github.com/Nazar-Pichak/OneWayFolderSync.git
 **3. Navigate into your git repo**
 
 ```
-cd >> cloned repo
+cd >> OneWayFolderSync
 ```
 
 **4. Create virtual environment**
@@ -112,11 +112,11 @@ python -m venv venv
 
 - For Windows:
 ```
-.venv\Scripts\activate         
+venv\Scripts\activate         
 ```
 - For Unix/macOS:
 ```
-source .venv/bin/activate    
+source venv/bin/activate    
 ```
 **6. Install dependencies into virtual environment**
 
@@ -177,7 +177,7 @@ You can also take this script as a basis for implementing **two way folder synch
 
 - Navigate into the project:
 ```
-cd >> cloned repo
+cd >> OneWayFolderSync
 ```
 - Add the original repository as an upstream remote to keep your fork in sync:
 ```
@@ -197,11 +197,11 @@ python -m venv venv
 
 - For Windows:
 ```
-.venv\Scripts\activate         
+venv\Scripts\activate         
 ```
 - For Unix/macOS:
 ```
-source .venv/bin/activate    
+source venv/bin/activate    
 ```
 **6. Install dependencies into virtual environment**
 
