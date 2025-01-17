@@ -1,7 +1,7 @@
 # One Way Folder Synchronization Script
 
 [![Python](https://img.shields.io/badge/python-3.12%2B-blue)](https://www.python.org/downloads/)
-[![Last Commit](https://img.shields.io/github/last-commit/Nazar-Pichak/One_Way_Folder_Sync)](https://github.com/Nazar-Pichak/One_Way_Folder_Sync/tree/main)
+[![Last Commit](https://img.shields.io/github/last-commit/Nazar-Pichak/OneWayFolderSync)](https://github.com/Nazar-Pichak/OneWayFolderSync/tree/main)
 [![Forks](https://img.shields.io/github/forks/Nazar-Pichak/One_Way_Folder_Sync)](https://github.com/Nazar-Pichak/One_Way_Folder_Sync/network)
 [![Stars](https://img.shields.io/github/stars/Nazar-Pichak/One_Way_Folder_Sync)](https://github.com/Nazar-Pichak/One_Way_Folder_Sync/stargazers)
 [![Issues](https://img.shields.io/github/issues/Nazar-Pichak/One_Way_Folder_Sync)](https://github.com/Nazar-Pichak/One_Way_Folder_Sync/issues)
